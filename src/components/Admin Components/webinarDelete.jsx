@@ -60,13 +60,13 @@ const WebinarDelete = ({ isOpen, onClose, onConfirm, itemType }) => {
             </div>
             <div className="flex justify-around mx-10 gap-6">
               <button
-                className="border border-[#6a55ea] text-[#6a55ea] w-44 h-12 rounded-lg hover:bg-[#6a55ea] hover:text-white transition duration-200"
+                className="border border-[#44ae4b] text-[#44ae4b] w-44 h-12 rounded-lg hover:bg-[#44ae4b] hover:text-white transition duration-200"
                 onClick={onClose}
               >
                 No
               </button>
               <button
-                className={`bg-[#6a55ea] text-white rounded-lg w-44 h-12 ${
+                className={`bg-[#44ae4b] text-white rounded-lg w-44 h-12 ${
                   loading ? "opacity-50 cursor-not-allowed" : ""
                 }`}
                 onClick={handleConfirm}

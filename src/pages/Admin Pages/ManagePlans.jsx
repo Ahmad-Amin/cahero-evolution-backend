@@ -209,7 +209,7 @@ const ManagePlans = () => {
                     required
                   />
                   <div
-                    className="bg-[#6a55ea] p-2 rounded-lg cursor-pointer"
+                    className="bg-[#44ae4b] p-2 rounded-lg cursor-pointer"
                     onClick={handleAddContent} 
                   >
                     <AddIcon
@@ -234,7 +234,7 @@ const ManagePlans = () => {
           {/* Image Upload Section - 40% */}
           <div className="flex flex-row justify-end gap-6 mt-5 w-3/5">
             <div className="">
-              <button className="w-auto px-3 h-12 bg-[#6a55ea] hover:bg-[#5242b6] ease-in-out transition duration-300 rounded-xl text-white font-semibold text-lg">
+              <button className="w-auto px-3 h-12 bg-[#44ae4b] hover:bg-[#307b35] ease-in-out transition duration-300 rounded-xl text-white font-semibold text-lg">
                 Update Subscription Plan
               </button>
             </div>

@@ -60,7 +60,7 @@ const LectureDetails = () => {
             left: 0,
             width: "70px",
             height: "100%",
-            background: "linear-gradient(to right, #220e37 0%, rgba(34, 14, 55, 0) 100%)",
+            background: "linear-gradient(to right, #172719 0%, rgba(34, 14, 55, 0) 100%)",
           }}
         />
         <LoadingWrapper loading={loading}>
@@ -98,7 +98,7 @@ const LectureDetails = () => {
                 </div>
                 <div className="flex flex-col md:flex-row items-center">
                   <Link to={`/documentaries/details/${lectureId}`}>
-                    <button className="h-16 w-full md:w-36 text-white rounded-2xl mt-3 bg-[#6a55ea] hover:bg-[#5242b6] cursor-pointer ease-in-out transition">
+                    <button className="h-16 w-full md:w-36 text-white rounded-2xl mt-3 bg-[#44ae4b] hover:bg-[#307b35] cursor-pointer ease-in-out transition">
                       Play Video
                     </button>
                   </Link>

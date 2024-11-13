@@ -174,10 +174,10 @@ const Comments = ({ type, onCommentAdded }) => {
           </div>
           <div className="flex flex-row m-5 space-x-3">
             <div
-              className="w-10 h-10 rounded-full border border-[#6a55ea] flex items-center justify-center cursor-pointer"
+              className="w-10 h-10 rounded-full border border-[#44ae4b] flex items-center justify-center cursor-pointer"
               onClick={handleSubmitReview}
             >
-              <SendIcon className="text-[#6a55ea]" />
+              <SendIcon className="text-[#44ae4b]" />
             </div>
           </div>
         </div>
@@ -284,10 +284,10 @@ const Comments = ({ type, onCommentAdded }) => {
               </div>
               <div className="flex flex-row m-5 space-x-3">
                 <div
-                  className="w-10 h-10 rounded-full border border-[#6a55ea] flex items-center justify-center cursor-pointer"
+                  className="w-10 h-10 rounded-full border border-[#44ae4b] flex items-center justify-center cursor-pointer"
                   onClick={() => handleSubmitReply(comment.id)}
                 >
-                  <SendIcon className="text-[#6a55ea]" />
+                  <SendIcon className="text-[#44ae4b]" />
                 </div>
               </div>
             </div>

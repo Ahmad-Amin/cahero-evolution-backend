@@ -224,7 +224,7 @@ const CreateWebinars = () => {
                     value="paid"
                     checked={paymentType === "paid"}
                     onChange={handlePaymentTypeChange}
-                    className="ml-2 appearance-none border border-[#6a55ea] checked:bg-[#6a55ea] rounded-full w-5 h-5 cursor-pointer"
+                    className="ml-2 appearance-none border border-[#44ae4b] checked:bg-[#44ae4b] rounded-full w-5 h-5 cursor-pointer"
                   />
                 </label>
                 <label className="text-white font-normal text-lg flex items-center">
@@ -235,7 +235,7 @@ const CreateWebinars = () => {
                     value="unpaid"
                     checked={paymentType === "unpaid"}
                     onChange={handlePaymentTypeChange}
-                    className="ml-2 appearance-none border border-[#6a55ea] checked:bg-[#6a55ea] rounded-full w-5 h-5 cursor-pointer"
+                    className="ml-2 appearance-none border border-[#44ae4b] checked:bg-[#44ae4b] rounded-full w-5 h-5 cursor-pointer"
                   />
                 </label>
               </div>
@@ -264,7 +264,7 @@ const CreateWebinars = () => {
                 <div className="">
                   <button
                     type="button"
-                    className="w-56 h-12 bg-transparent border-2 border-[#6a55ea] hover:border-0 hover:bg-[#6a55ea] ease-in-out transition duration-300 rounded-xl text-white font-semibold text-lg"
+                    className="w-56 h-12 bg-transparent border-2 border-[#44ae4b] hover:border-0 hover:bg-[#44ae4b] ease-in-out transition duration-300 rounded-xl text-white font-semibold text-lg"
                   >
                     Share Invite Link
                   </button>
@@ -272,7 +272,7 @@ const CreateWebinars = () => {
                 <div className="">
                   <button
                     type="submit"
-                    className="w-56 h-12 bg-[#6a55ea] hover:bg-[#5242b6] ease-in-out transition duration-300 rounded-xl text-white font-semibold text-lg"
+                    className="w-56 h-12 bg-[#44ae4b] hover:bg-[#307b35] ease-in-out transition duration-300 rounded-xl text-white font-semibold text-lg"
                   >
                     Create Webinar
                   </button>

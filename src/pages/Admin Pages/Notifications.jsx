@@ -38,7 +38,7 @@ const Notifications = () => {
               Notifications
             </h1>
             <Link to="/dashboard/notifications/create-notification">
-              <button className="w-auto px-5 h-12 hover:bg-[#5242b6] bg-[#6a55ea] text-white text-lg font-semibold rounded-lg ease-in-out transition duration-300">
+              <button className="w-auto px-5 h-12 hover:bg-[#307b35] bg-[#44ae4b] text-white text-lg font-semibold rounded-lg ease-in-out transition duration-300">
                 Create Notification
               </button>
             </Link>

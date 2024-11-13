@@ -98,7 +98,7 @@ const Lectures = ({ searchQuery, datefilter }) => {
               </h2>
 
               <div className="flex items-center mb-3">
-                <CalendarTodayIcon className="text-[#6a55ea] mr-1" />
+                <CalendarTodayIcon className="text-[#44ae4b] mr-1" />
                 <p className="text-white mr-2">Date:</p>
                 <p className="text-[#b2b2b2]">
                   {lecture.createdAt.split("T")[0]}
@@ -106,7 +106,7 @@ const Lectures = ({ searchQuery, datefilter }) => {
               </div>
 
               <div className="flex items-center mb-4">
-                <AccessTimeIcon className="text-[#6a55ea] mr-1" />
+                <AccessTimeIcon className="text-[#44ae4b] mr-1" />
                 <p className="text-white mr-2">Duration:</p>
                 <p className="text-[#b2b2b2]">
                   {formatDuration(lecture.duration)}

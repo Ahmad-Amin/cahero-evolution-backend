@@ -179,7 +179,7 @@ const ProfileSettings = () => {
             width: "70px",
             height: "100%",
             background:
-              "linear-gradient(to right, #220e37 0%, rgba(34, 14, 55, 0) 100%)",
+              "linear-gradient(to right, #172719 0%, rgba(34, 14, 55, 0) 100%)",
             zIndex: 1,
           }}
         />
@@ -209,14 +209,14 @@ const ProfileSettings = () => {
                   <>
                     <span className="text-white mt-2">{fileName}</span>
                     <button
-                      className="text-[#6a55ea] hover:text-[#5242b6] ease-in-out transition duration-300 font-medium text-base mt-4"
+                      className="text-[#44ae4b] hover:text-[#307b35] ease-in-out transition duration-300 font-medium text-base mt-4"
                       onClick={handleImageUpload}
                     >
                       Save
                     </button>
                   </>
                 ) : (
-                  <label className="text-[#6a55ea] hover:text-[#5242b6] ease-in-out transition duration-300 font-medium text-base mt-4">
+                  <label className="text-[#44ae4b] hover:text-[#307b35] ease-in-out transition duration-300 font-medium text-base mt-4">
                     Change image
                     <input
                       type="file"
@@ -254,14 +254,14 @@ const ProfileSettings = () => {
                   <div className="whitespace-nowrap">
                     {isEditing.profile ? (
                       <button
-                        className="text-[#6a55ea] hover:text-[#5242b6] transition duration-300 text-base font-medium"
+                        className="text-[#44ae4b] hover:text-[#307b35] transition duration-300 text-base font-medium"
                         onClick={() => handleSave("profile")}
                       >
                         Save
                       </button>
                     ) : (
                       <button
-                        className="text-[#6a55ea] hover:text-[#5242b6] transition duration-300 text-base font-medium"
+                        className="text-[#44ae4b] hover:text-[#307b35] transition duration-300 text-base font-medium"
                         onClick={() => handleEditToggle("profile")}
                       >
                         Edit Profile
@@ -308,14 +308,14 @@ const ProfileSettings = () => {
                   <div className="whitespace-nowrap">
                     {isEditing.bio ? (
                       <button
-                        className="text-[#6a55ea] hover:text-[#5242b6] transition duration-300 font-medium"
+                        className="text-[#44ae4b] hover:text-[#307b35] transition duration-300 font-medium"
                         onClick={() => handleSave("bio")}
                       >
                         Save
                       </button>
                     ) : (
                       <button
-                        className="text-[#6a55ea] hover:text-[#5242b6] transition duration-300 font-medium"
+                        className="text-[#44ae4b] hover:text-[#307b35] transition duration-300 font-medium"
                         onClick={() => handleEditToggle("bio")}
                       >
                         Edit bio
@@ -346,14 +346,14 @@ const ProfileSettings = () => {
                 <div className="whitespace-nowrap">
                   {isEditing.email ? (
                     <button
-                      className="text-[#6a55ea] hover:text-[#5242b6] transition duration-300 font-medium"
+                      className="text-[#44ae4b] hover:text-[#307b35] transition duration-300 font-medium"
                       onClick={() => handleSave("email")}
                     >
                       Save
                     </button>
                   ) : (
                     <button
-                      className="text-[#6a55ea] hover:text-[#5242b6] transition duration-300 font-medium"
+                      className="text-[#44ae4b] hover:text-[#307b35] transition duration-300 font-medium"
                       onClick={() => handleEditToggle("email")}
                     >
                       Edit Email
@@ -379,14 +379,14 @@ const ProfileSettings = () => {
                 <div className="whitespace-nowrap">
                   {isEditing.phoneNumber ? (
                     <button
-                      className="text-[#6a55ea] hover:text-[#5242b6] transition duration-300 font-medium"
+                      className="text-[#44ae4b] hover:text-[#307b35] transition duration-300 font-medium"
                       onClick={() => handleSave("phoneNumber")}
                     >
                       Save
                     </button>
                   ) : (
                     <button
-                      className="text-[#6a55ea] hover:text-[#5242b6] transition duration-300 font-medium"
+                      className="text-[#44ae4b] hover:text-[#307b35] transition duration-300 font-medium"
                       onClick={() => handleEditToggle("phoneNumber")}
                     >
                       Edit Phone Number

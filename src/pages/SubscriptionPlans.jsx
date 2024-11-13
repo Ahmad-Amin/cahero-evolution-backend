@@ -35,7 +35,7 @@ const SubscriptionPlans = () => {
           left: 0,
           width: { xs: "40px", sm: "70px" },
           height: "100%",
-          background: "linear-gradient(to right, #220e37 0%, rgba(34, 14, 55, 0) 100%)",
+          background: "linear-gradient(to right, #172719 0%, rgba(34, 14, 55, 0) 100%)",
           zIndex: 1,
         }}
       />
@@ -64,7 +64,7 @@ const SubscriptionPlans = () => {
                 <div className="flex flex-col items-center justify-center text-white h-full gap-3 md:gap-5 px-4 md:px-6">
                   <h2 className="text-xl md:text-2xl font-bold">{plan.title}</h2>
                   <h3 className="text-sm md:text-base font-extralight">Monthly Charges</h3>
-                  <h4 className="text-3xl md:text-4xl font-extrabold text-[#6a55ea]">{plan.price}</h4>
+                  <h4 className="text-3xl md:text-4xl font-extrabold text-[#44ae4b]">{plan.price}</h4>
                   <Divider
                     sx={{
                       width: "85%",
@@ -90,11 +90,11 @@ const SubscriptionPlans = () => {
                   />
                   <button
                     variant="outlined"
-                    className="mt-2 w-full max-w-[140px] sm:max-w-[180px] h-12 md:h-16 rounded-full border-2 border-[#6a55ea] text-[#6a55ea] hover:bg-[#6a55ea] font-bold hover:text-black ease-in-out transition duration-300"
+                    className="mt-2 w-full max-w-[140px] sm:max-w-[180px] h-12 md:h-16 rounded-full border-2 border-[#44ae4b] text-[#44ae4b] hover:bg-[#44ae4b] font-bold hover:text-black ease-in-out transition duration-300"
                   >
                     Get Started
                   </button>
-                  <button className="text-white mt-2 mb-2 text-xs md:text-sm underline font-semibold hover:text-[#6a55ea] ease-in-out transition duration-300">
+                  <button className="text-white mt-2 mb-2 text-xs md:text-sm underline font-semibold hover:text-[#44ae4b] ease-in-out transition duration-300">
                     Start Your 30 Day Free Trial
                   </button>
                 </div>

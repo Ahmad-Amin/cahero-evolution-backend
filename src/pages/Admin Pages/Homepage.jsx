@@ -199,7 +199,7 @@ const AdminHomepage = () => {
             </div>
             <div className="w-auto h-auto flex justify-end">
               <Link to="/dashboard/webinars/create-webinar">
-                <button className="w-52 h-12 bg-[#6a55ea] text-white rounded-lg text-lg font-semibold hover:bg-[#3b2f83] ease-in-out transition duration-300">
+                <button className="w-52 h-12 bg-[#44ae4b] text-white rounded-lg text-lg font-semibold hover:bg-[#3b2f83] ease-in-out transition duration-300">
                   Create Webinar
                 </button>
               </Link>
@@ -213,7 +213,7 @@ const AdminHomepage = () => {
             </div>
             <div className="w-auto h-auto flex justify-end">
               <Link to="/dashboard/webinars">
-                <button className="w-52 h-12 text-[#6a55ea]  rounded-lg text-lg font-semibold hover:text-[#3b2f83] ease-in-out transition duration-300">
+                <button className="w-52 h-12 text-[#44ae4b]  rounded-lg text-lg font-semibold hover:text-[#3b2f83] ease-in-out transition duration-300">
                   View All
                 </button>
               </Link>

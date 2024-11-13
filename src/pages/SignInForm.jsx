@@ -83,7 +83,7 @@ function SignInForm({ onClose, toggleSignUp }) {
         
         {loading ? ( 
           <div className="flex justify-center items-center h-48">
-            <HashLoader color="#6A55EA" loading={loading} size={40} />
+            <HashLoader color="#44ae4b" loading={loading} size={40} />
           </div>
         ) : (
           <form onSubmit={handleLogin}>
@@ -188,13 +188,13 @@ function SignInForm({ onClose, toggleSignUp }) {
                 }
                 label="Remember me"
               />
-              <button className="text-[#6A55EA] hover:text-[#5242b6] ease-in-out transition duration-300 text-base font-semibold">
+              <button className="text-[#44ae4b] hover:text-[#307b35] ease-in-out transition duration-300 text-base font-semibold">
                 Forgot Password
               </button>
             </div>
             <div className="mx-10 mt-5 mb-10">
               <button
-                className="bg-[#6a55ea] text-white rounded-lg py-2 w-full"
+                className="bg-[#44ae4b] text-white rounded-lg py-2 w-full"
                 type="submit"
               >
                 Login
@@ -203,7 +203,7 @@ function SignInForm({ onClose, toggleSignUp }) {
             <div className="flex justify-center my-5">
               <p className="text-[#313131] text-sm font-semibold">
                 Don't have an Account?{" "}
-                <button className="text-[#6A55EA] hover:text-[#5242b6] ease-in-out transition duration-300" onClick={toggleSignUp}>
+                <button className="text-[#44ae4b] hover:text-[#307b35] ease-in-out transition duration-300" onClick={toggleSignUp}>
                   Sign up
                 </button>
               </p>

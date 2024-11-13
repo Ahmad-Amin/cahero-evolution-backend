@@ -72,7 +72,7 @@ const BookDetails = () => {
               width: "70px",
               height: "100%",
               background:
-                "linear-gradient(to right, #220e37 0%, rgba(34, 14, 55, 0) 100%)",
+                "linear-gradient(to right, #172719 0%, rgba(34, 14, 55, 0) 100%)",
               zIndex: 0,
             }}
           />
@@ -139,7 +139,7 @@ const BookDetails = () => {
                     variant="contained"
                     onClick={() => setIsAudioPlaying(true)} // Set state to true on button click
                     sx={{
-                      backgroundColor: "#6a55ea", // Your desired color
+                      backgroundColor: "#44ae4b", // Your desired color
                       color: "white",
                       "&:hover": {
                         backgroundColor: "#5a47d1", // Darker shade on hover

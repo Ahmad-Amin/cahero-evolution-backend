@@ -19,7 +19,7 @@ const LoadingWrapper = ({className, loading, children }) => {
             zIndex: 10,
           }}
         >
-          <HashLoader color="#6A55EA" loading={loading} size={40} />
+          <HashLoader color="#44ae4b" loading={loading} size={40} />
         </div>
       )}
       <div className={className} style={{ opacity: loading ? 0.5 : 1, transition: 'opacity 0.3s' }}>

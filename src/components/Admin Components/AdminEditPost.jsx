@@ -160,7 +160,7 @@ const AdminEditPost = ({ isOpen, onClose, onPost, editData, onUpdate }) => {
             <button
               onClick={handlePost}
               disabled={loading}
-              className={`w-32 px-5 h-12 bg-[#6a55ea] text-white rounded-lg font-semibold ${
+              className={`w-32 px-5 h-12 bg-[#44ae4b] text-white rounded-lg font-semibold ${
                 loading ? "opacity-50 cursor-not-allowed" : "hover:bg-[#5a48c9]"
               } transition duration-200`}
             >

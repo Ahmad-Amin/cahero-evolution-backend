@@ -57,7 +57,7 @@ const NotificationManagement = ({ isOpen, onClose, onConfirm, itemType }) => {
             </h2>
           </div>
           <Link to={`/dashboard/notifications/edit-notification/${itemType.id}`}>
-          <button className="text-white bg-[#6a55ea] hover:bg-[#5242b6] ease-in-out transition duration-300 w-36 h-12 rounded-lg">
+          <button className="text-white bg-[#44ae4b] hover:bg-[#307b35] ease-in-out transition duration-300 w-36 h-12 rounded-lg">
             Edit
           </button>
           </Link>

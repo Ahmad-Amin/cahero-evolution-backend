@@ -277,7 +277,7 @@ const CreateLecture = () => {
             <div className="">
               <button
                 type="submit"
-                className="w-56 h-12 bg-[#6a55ea] hover:bg-[#5242b6] ease-in-out transition duration-300 rounded-xl text-white font-semibold text-lg"
+                className="w-56 h-12 bg-[#44ae4b] hover:bg-[#307b35] ease-in-out transition duration-300 rounded-xl text-white font-semibold text-lg"
               >
                 Save Documentary
               </button>

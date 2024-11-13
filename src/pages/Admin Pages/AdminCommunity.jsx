@@ -187,7 +187,7 @@ const AdminCommunity = () => {
               Community
             </p>
             <button
-              className="bg-[#6a55ea] hover:bg-[#5242b6] transition duration-300 w-auto px-5 h-9 text-white font-semibold mr-10 rounded-lg z-10 "
+              className="bg-[#44ae4b] hover:bg-[#307b35] transition duration-300 w-auto px-5 h-9 text-white font-semibold mr-10 rounded-lg z-10 "
               onClick={handleCreateClick}
             >
               Create
@@ -322,9 +322,9 @@ const AdminCommunity = () => {
                       <div className="flex flex-row m-5 space-x-3">
                         <div
                           onClick={() => addCommentToPost(post.id)}
-                          className="w-10 h-10 rounded-full border border-[#6a55ea] flex items-center justify-center cursor-pointer"
+                          className="w-10 h-10 rounded-full border border-[#44ae4b] flex items-center justify-center cursor-pointer"
                         >
-                          <SendIcon className="text-[#6a55ea]" />
+                          <SendIcon className="text-[#44ae4b]" />
                         </div>
                       </div>
                     </div>

@@ -50,7 +50,7 @@ const JoinStream = () => {
           />
         </div>
         <button
-          className="w-auto h-12 px-3 hover:bg-[#5242b6] bg-[#6a55ea] text-white text-lg font-semibold rounded-lg ease-in-out transition duration-300"
+          className="w-auto h-12 px-3 hover:bg-[#307b35] bg-[#44ae4b] text-white text-lg font-semibold rounded-lg ease-in-out transition duration-300"
           onClick={handleJoinStream}
         >
           Join Stream

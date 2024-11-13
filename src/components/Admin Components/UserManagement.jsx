@@ -67,7 +67,7 @@ const UserManagement = ({ isOpen, onClose, onConfirm, itemType }) => {
       case "admin":
         return "#46d133";
       case "participant":
-        return "#6a55ea";
+        return "#44ae4b";
       default:
         return "white";
     }
@@ -132,7 +132,7 @@ const UserManagement = ({ isOpen, onClose, onConfirm, itemType }) => {
 
           {!isEditing ? (
             <button
-              className="border border-[#6a55ea] text-[#6a55ea] hover:bg-[#6a55ea] hover:text-white ease-in-out transition duration-300 w-36 h-12 px-3 rounded-lg"
+              className="border border-[#44ae4b] text-[#44ae4b] hover:bg-[#44ae4b] hover:text-white ease-in-out transition duration-300 w-36 h-12 px-3 rounded-lg"
               onClick={handleEditClick}
               disabled={isCurrentUser} // Disable the button if it's the current user
               style={isCurrentUser ? { opacity: 0.5, cursor: "not-allowed" } : {}}
@@ -141,7 +141,7 @@ const UserManagement = ({ isOpen, onClose, onConfirm, itemType }) => {
             </button>
           ) : (
             <button
-              className="border border-[#6a55ea] text-[#6a55ea] hover:bg-[#6a55ea] hover:text-white ease-in-out transition duration-300 w-36 h-12 px-3 rounded-lg"
+              className="border border-[#44ae4b] text-[#44ae4b] hover:bg-[#44ae4b] hover:text-white ease-in-out transition duration-300 w-36 h-12 px-3 rounded-lg"
               onClick={handleUpdateClick}
             >
               Update
@@ -241,14 +241,14 @@ const UserManagement = ({ isOpen, onClose, onConfirm, itemType }) => {
           {/* Block and Remove buttons */}
           <div className="w-full flex justify-center space-x-5 pt-10">
             <button
-              className="border border-[#6a55ea] text-[#6a55ea] w-44 h-12 rounded-lg hover:bg-[#6a55ea] hover:text-white transition duration-200"
+              className="border border-[#44ae4b] text-[#44ae4b] w-44 h-12 rounded-lg hover:bg-[#44ae4b] hover:text-white transition duration-200"
               onClick={handleClose}
               disabled={isCurrentUser}
             >
               Block User
             </button>
             <button
-              className="bg-[#6a55ea] text-white rounded-lg w-44 h-12 hover:bg-[#e53939] transition duration-200"
+              className="bg-[#44ae4b] text-white rounded-lg w-44 h-12 hover:bg-[#e53939] transition duration-200"
               onClick={handleRemoveUser}
               disabled={isCurrentUser}
             >

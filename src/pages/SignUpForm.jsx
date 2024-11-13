@@ -147,7 +147,7 @@ function SignUpForm({ onClose, toggleSignIn }) {
         </p>
         {loading ? ( 
           <div className="flex justify-center items-center h-48">
-            <HashLoader color="#6A55EA" loading={loading} size={40} />
+            <HashLoader color="#44ae4b" loading={loading} size={40} />
           </div>
         ) : (
         <form onSubmit={handleSignup}>
@@ -287,15 +287,15 @@ function SignUpForm({ onClose, toggleSignIn }) {
               label={
                 <span className="font-extrabold text-sm">
                   I agree to all the{" "}
-                  <button className="text-[#6A55EA] hover:text-[#5242b6] ease-in-out transition duration-300">terms</button> and{" "}
-                  <button className="text-[#6A55EA] hover:text-[#5242b6] ease-in-out transition duration-300">privacy policies</button>
+                  <button className="text-[#44ae4b] hover:text-[#307b35] ease-in-out transition duration-300">terms</button> and{" "}
+                  <button className="text-[#44ae4b] hover:text-[#307b35] ease-in-out transition duration-300">privacy policies</button>
                 </span>
               }
             />
           </div>
           <div className="my-5">
             <button
-              className="text-black font-semibold w-full bg-[#6A55EA] hover:bg-[#5242b6] ease-in-out transition duration-300 py-3 rounded-lg"
+              className="text-black font-semibold w-full bg-[#44ae4b] hover:bg-[#307b35] ease-in-out transition duration-300 py-3 rounded-lg"
               type="submit"
             >
               Sign Up
@@ -303,7 +303,7 @@ function SignUpForm({ onClose, toggleSignIn }) {
           </div>
         <p className="mt-4 text-sm text-center">
           Already have an account?{" "}
-          <button onClick={toggleSignIn} className="font-bold text-[#6A55EA] hover:text-[#5242b6] ease-in-out transition duration-300">
+          <button onClick={toggleSignIn} className="font-bold text-[#44ae4b] hover:text-[#307b35] ease-in-out transition duration-300">
             Sign In
           </button>
         </p>

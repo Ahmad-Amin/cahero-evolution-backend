@@ -197,14 +197,14 @@ const Profile = () => {
             </div>
           </div>
           <div className="w-full h-auto flex justify-end mt-2 pr-10">
-            <button className="text-xl font-semibold text-[#6a55ea] hover:text-[#5242b6] ease-in-out transition duration-300">
+            <button className="text-xl font-semibold text-[#44ae4b] hover:text-[#307b35] ease-in-out transition duration-300">
               Forgot Password?
             </button>
           </div>
           <div className="w-full h-auto flex justify-center mt-10">
             <button
               type="submit"
-              className="text-white text-xl font-semibold bg-[#6a55ea] hover:bg-[#5242b6] ease-in-out transition duration-300 w-auto h-12 px-10 flex items-center justify-center rounded-lg mt-10"
+              className="text-white text-xl font-semibold bg-[#44ae4b] hover:bg-[#307b35] ease-in-out transition duration-300 w-auto h-12 px-10 flex items-center justify-center rounded-lg mt-10"
             >
               Update Information
             </button>

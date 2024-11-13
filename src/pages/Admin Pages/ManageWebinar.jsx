@@ -262,7 +262,7 @@ const ManageWebinars = () => {
                   value="paid"
                   checked={paymentType === "paid"}
                   onChange={handlePaymentTypeChange}
-                  className="ml-2 appearance-none border border-[#6a55ea] checked:bg-[#6a55ea] rounded-full w-5 h-5 cursor-pointer"
+                  className="ml-2 appearance-none border border-[#44ae4b] checked:bg-[#44ae4b] rounded-full w-5 h-5 cursor-pointer"
                 />
               </label>
               <label className="text-white font-normal text-lg flex items-center">
@@ -273,7 +273,7 @@ const ManageWebinars = () => {
                   value="unpaid"
                   checked={paymentType === "unpaid"}
                   onChange={handlePaymentTypeChange}
-                  className="ml-2 appearance-none border border-[#6a55ea] checked:bg-[#6a55ea] rounded-full w-5 h-5 cursor-pointer"
+                  className="ml-2 appearance-none border border-[#44ae4b] checked:bg-[#44ae4b] rounded-full w-5 h-5 cursor-pointer"
                 />
               </label>
             </div>
@@ -303,7 +303,7 @@ const ManageWebinars = () => {
             <div className="flex justify-between mt-5">
               <button
                 onClick={handleUpdateWebinar}
-                className="w-48 h-12 bg-[#6a55ea] text-white text-lg font-semibold rounded-xl hover:bg-[#5a4bcf] ease-in-out transition duration-300"
+                className="w-48 h-12 bg-[#44ae4b] text-white text-lg font-semibold rounded-xl hover:bg-[#5a4bcf] ease-in-out transition duration-300"
               >
                 Update Webinar
               </button>

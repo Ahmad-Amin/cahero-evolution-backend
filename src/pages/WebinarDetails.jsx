@@ -86,7 +86,7 @@ const WebinarDetails = () => {
             width: "70px",
             height: "100%",
             background:
-              "linear-gradient(to right, #220e37 0%, rgba(34, 14, 55, 0) 100%)",
+              "linear-gradient(to right, #172719 0%, rgba(34, 14, 55, 0) 100%)",
           }}
         />
         <LoadingWrapper loading={loading}>
@@ -135,7 +135,7 @@ const WebinarDetails = () => {
                 <div className="flex flex-col md:flex-row items-center">
                   <button
                     className={`h-16 w-full md:w-36 text-white rounded-2xl mt-3 ${
-                      isWatchNowEnabled ? "bg-[#6a55ea]" : "bg-gray-500"
+                      isWatchNowEnabled ? "bg-[#44ae4b]" : "bg-gray-500"
                     }`}
                     onClick={handleWatchNow}
                     disabled={!isWatchNowEnabled}

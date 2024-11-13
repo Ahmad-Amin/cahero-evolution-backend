@@ -13,15 +13,13 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import DashboardIcon from "@mui/icons-material/Dashboard";
-import VideoLibraryIcon from "@mui/icons-material/VideoLibrary";
 import LibraryBooksIcon from "@mui/icons-material/LibraryBooks";
-import TuneIcon from "@mui/icons-material/Tune";
-import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
+import PersonalVideoIcon from '@mui/icons-material/PersonalVideo';
 import GroupsIcon from '@mui/icons-material/Groups';
 import { Link, Outlet, useLocation, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../Slice/AuthSlice";
-
+import Navbar from "../components/Navbar"
 const drawerWidth = 280;
 
 export default function Homepage({ window }) {
@@ -44,19 +42,9 @@ export default function Homepage({ window }) {
 
   const menuItems = [
     { text: "Dashboard", icon: <DashboardIcon />, link: "/" },
-    { text: "Webinar", icon: <VideoLibraryIcon />, link: "/webinar" },
-    { text: "Books", icon: <LibraryBooksIcon />, link: "/all-books" },
-    {
-      text: "Documentaries",
-      icon: <VideoLibraryIcon />,
-      link: "/documentaries",
-    },
-    { text: "Profile Settings", icon: <TuneIcon />, link: "/profile-settings" },
-    {
-      text: "Subscription Plans",
-      icon: <CalendarTodayIcon />,
-      link: "/subscription-plans",
-    },
+    { text: "Meditation Library", icon: <PersonalVideoIcon />, link: "/meditation-library" },
+    { text: "Personalized Plans", icon: <LibraryBooksIcon />, link: "/personalized-plans" },
+    
     {
       text: "Community",
       icon: <GroupsIcon/>,
@@ -95,11 +83,11 @@ export default function Homepage({ window }) {
               <Link to={item.link} className="w-full h-auto mx-5">
                 <ListItemButton
                   sx={{
-                    backgroundColor: isActive ? "#6a55ea" : "transparent",
+                    backgroundColor: isActive ? "#44ae4b" : "transparent",
                     borderRadius: "12px",
                     marginBottom: "12px",
                     paddingLeft: "16px",
-                    "&:hover": { backgroundColor: "#5242b6" },
+                    "&:hover": { backgroundColor: "#307b35" },
                   }}
                 >
                   <ListItemIcon
@@ -139,7 +127,7 @@ export default function Homepage({ window }) {
       <AppBar
         position="fixed"
         sx={{
-          width: { sm: `calc(100% - ${drawerWidth}px)` }, // Use backticks here
+          width: { sm: `calc(100% - ${drawerWidth}px)` }, 
           ml: { sm: `${drawerWidth}px` },
           backgroundColor: "transparent",
           boxShadow: "none",
@@ -156,6 +144,7 @@ export default function Homepage({ window }) {
             <MenuIcon />
           </IconButton>
         </Box>
+        <Navbar position='absolute' />
       </AppBar>
 
       {!shouldHideSidebar && (

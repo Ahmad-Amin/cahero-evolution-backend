@@ -32,7 +32,7 @@ const UsersTable = ({ onViewUser }) => {
       case 'admin':
         return '#46d133';
       case 'participant':
-        return '#6a55ea';
+        return '#44ae4b';
       default:
         return 'white';
     }
@@ -46,7 +46,7 @@ const UsersTable = ({ onViewUser }) => {
     <div className="relative overflow-x-auto shadow-md ml-10">
       {loading ? (
         <div className="flex justify-center items-center h-48">
-          <HashLoader color="#6A55EA" loading={loading} size={40} />
+          <HashLoader color="#44ae4b" loading={loading} size={40} />
         </div>
       ) : (
         <table className="w-full text-base text-left rtl:text-right text-white">
@@ -76,7 +76,7 @@ const UsersTable = ({ onViewUser }) => {
                 <td className="px-6 py-4">Active</td>
                 <td className="px-6 py-4">
                   <button
-                    className="font-medium text-white bg-[#6a55ea] hover:bg-[#5242b6] rounded-lg h-8 w-auto px-5 ease-in-out transition duration-200"
+                    className="font-medium text-white bg-[#44ae4b] hover:bg-[#307b35] rounded-lg h-8 w-auto px-5 ease-in-out transition duration-200"
                     onClick={() => onViewUser(user)} // Pass the user to the modal
                   >
                     View

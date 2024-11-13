@@ -81,13 +81,13 @@ const Webinars = () => {
 
               {/* Buttons */}
               <Link to="/dashboard/webinars/create-webinar">
-                <button className="w-44 h-12 hover:bg-[#5242b6] bg-[#6a55ea] text-white text-lg font-semibold rounded-lg transition duration-300">
+                <button className="w-44 h-12 hover:bg-[#307b35] bg-[#44ae4b] text-white text-lg font-semibold rounded-lg transition duration-300">
                   Create Webinar
                 </button>
               </Link>
 
               <Link to="/dashboard/webinars/webinar-lobby">
-                <button className="w-44 h-12 hover:bg-[#5242b6] bg-[#6a55ea] text-white text-lg font-semibold rounded-lg transition duration-300">
+                <button className="w-44 h-12 hover:bg-[#307b35] bg-[#44ae4b] text-white text-lg font-semibold rounded-lg transition duration-300">
                   Stream
                 </button>
               </Link>

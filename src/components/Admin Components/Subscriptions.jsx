@@ -59,11 +59,11 @@ const Subscriptions = () => {
         {plans.map((plan, index) => (
           <div
             key={index}
-            className="bg-[#000000] border border-[#6a55ea] rounded-xl p-6 space-y-7 text-white relative"
+            className="bg-[#000000] border border-[#44ae4b] rounded-xl p-6 space-y-7 text-white relative"
           >
             <div className="flex justify-between items-center">
               <div className="flex flex-row gap-3 flex-1">
-                <h3 className="text-xl font-semibold text-[#6a55ea]">
+                <h3 className="text-xl font-semibold text-[#44ae4b]">
                   {plan.name}
                 </h3>
               </div>
@@ -83,13 +83,13 @@ const Subscriptions = () => {
             <ul className="space-y-5 mb-6">
               {plan.features.map((feature, i) => (
                 <li key={i} className="flex items-center text-lg">
-                  <span className="text-[#6a55ea] mr-2">●</span>
+                  <span className="text-[#44ae4b] mr-2">●</span>
                   {feature}
                 </li>
               ))}
             </ul>
             <div className="w-full flex justify-center">
-              <button className="bg-[#6a55ea] w-1/2 py-3 rounded-md text-lg mt-5 font-semibold hover:bg-[#5242b6] transition ease-in-out duration-300">
+              <button className="bg-[#44ae4b] w-1/2 py-3 rounded-md text-lg mt-5 font-semibold hover:bg-[#307b35] transition ease-in-out duration-300">
                 View
               </button>
             </div>

@@ -82,19 +82,19 @@ const Recordings = () => {
               </h2>
 
               <div className="flex items-center mb-2">
-                <CalendarTodayIcon className="text-[#6a55ea] mr-1" />
+                <CalendarTodayIcon className="text-[#44ae4b] mr-1" />
                 <p className="text-white mr-2">Date:</p>
                 <p className="text-[#b2b2b2]">{recording.date}</p>
               </div>
 
               <div className="flex items-center mb-2">
-                <AccessTimeIcon className="text-[#6a55ea] mr-1" />
+                <AccessTimeIcon className="text-[#44ae4b] mr-1" />
                 <p className="text-white mr-2">Time:</p>
                 <p className="text-[#b2b2b2]">{recording.time}</p>
               </div>
 
               <div className="flex items-center mb-3">
-                <AccessTimeIcon className="text-[#6a55ea] mr-1" />
+                <AccessTimeIcon className="text-[#44ae4b] mr-1" />
                 <p className="text-white mr-2">Duration:</p>
                 <p className="text-[#b2b2b2]">{recording.duration}</p>
               </div>

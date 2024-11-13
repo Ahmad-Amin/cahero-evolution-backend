@@ -4,7 +4,7 @@ import UpcomingWebinars from "../pages/UpcomingWebinars";
 import Recommendedbooks from "../pages/Recommendedbooks";
 import Latestlectures from "../pages/Latestlectures";
 import { Box } from "@mui/material";
-
+import Calender from "../components/Calender"
 const drawerWidth = 280;
 
 const Dashboard = () => {
@@ -30,20 +30,27 @@ const Dashboard = () => {
             width: "70px",
             height: "100%",
             background:
-              "linear-gradient(to right, #220e37 0%, rgba(34, 14, 55, 0) 100%)",
+              "linear-gradient(to right, #172719 0%, rgba(34, 14, 55, 0) 100%)",
             zIndex: 1,
           }}
         />
 
-        <Box className="w-full" sx={{ position: "relative", zIndex: 2 }}>
-          <Banner />
-        </Box>
+        <div className="w-full flex flex-row mt-20">
+          <div className="flex-1 w-2/3 z-20 mx-5">
+            <h1 className="text-white text-3xl font-semibold mb-3">Dashboard</h1>
+            <Banner />
+          </div>
+          <div className="w-1/3 mx-5">
+            <h1 className="text-white text-3xl font-semibold mb-3">Progress</h1>
+            <Calender />
+          </div>
+        </div>
 
         <Box
           sx={{
             position: "relative",
             zIndex: 2,
-            mt: { xs: 4, sm: 8 }, 
+            mt: { xs: 4, sm: 8 },
           }}
         >
           <UpcomingWebinars />
@@ -53,20 +60,10 @@ const Dashboard = () => {
           sx={{
             position: "relative",
             zIndex: 2,
-            mt: { xs: 4, sm: 8 }, 
+            mt: { xs: 2, sm: 4 },
           }}
         >
-          <Recommendedbooks />
-        </Box>
-
-        <Box
-          sx={{
-            position: "relative",
-            zIndex: 2,
-            mt: { xs: 4, sm: 8 }, 
-          }}
-        >
-          <Latestlectures limit={3} />
+          <Latestlectures limit={2} />
         </Box>
       </Box>
     </>

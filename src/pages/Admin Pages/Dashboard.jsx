@@ -141,11 +141,11 @@ export default function AdminPanelLayout() {
                 <Link to={item.link} className="w-full h-auto mx-5">
                   <ListItemButton
                     sx={{
-                      backgroundColor: isActive ? "#6a55ea" : "transparent",
+                      backgroundColor: isActive ? "#44ae4b" : "transparent",
                       borderRadius: "12px",
                       paddingLeft: "16px",
                       marginBottom: "12px",
-                      "&:hover": { backgroundColor: "#5242b6" },
+                      "&:hover": { backgroundColor: "#307b35" },
                     }}
                   >
                     <ListItemIcon

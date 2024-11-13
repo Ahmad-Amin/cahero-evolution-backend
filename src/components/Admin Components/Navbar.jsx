@@ -243,22 +243,22 @@ const AdminNavbar = ({ pageTitle }) => {
               </div>
               <ul className="py-2 text-sm space-y-2">
                 <li>
-                  <Link to="/dashboard" className="block px-4 mx-2 py-2 rounded-lg hover:bg-[#5242b6] cursor-pointer ease-in-out transition">
+                  <Link to="/dashboard" className="block px-4 mx-2 py-2 rounded-lg hover:bg-[#307b35] cursor-pointer ease-in-out transition">
                     Dashboard
                   </Link>
                 </li>
                 <li>
-                  <Link to="/dashboard/notifications" className="block px-4 mx-2 py-2 rounded-lg hover:bg-[#5242b6] cursor-pointer ease-in-out transition">
+                  <Link to="/dashboard/notifications" className="block px-4 mx-2 py-2 rounded-lg hover:bg-[#307b35] cursor-pointer ease-in-out transition">
                     Notifications
                   </Link>
                 </li>
                 <li>
-                  <Link to="/dashboard/profile" className="block px-4 mx-2 py-2 rounded-lg hover:bg-[#5242b6] cursor-pointer ease-in-out transition">
+                  <Link to="/dashboard/profile" className="block px-4 mx-2 py-2 rounded-lg hover:bg-[#307b35] cursor-pointer ease-in-out transition">
                     Settings
                   </Link>
                 </li>
                   <li>
-                    <Link to="/" className="block px-4 mx-2 py-2 rounded-lg hover:bg-[#5242b6] cursor-pointer ease-in-out transition">
+                    <Link to="/" className="block px-4 mx-2 py-2 rounded-lg hover:bg-[#307b35] cursor-pointer ease-in-out transition">
                       User Panel
                     </Link>
                   </li>

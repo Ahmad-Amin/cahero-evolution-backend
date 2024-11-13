@@ -128,7 +128,7 @@ const AudioPlayer = ({ playing = false }) => {
         onMouseDown={handleMouseDown} 
       >
         <div
-          className="h-full bg-[#6a55ea]"
+          className="h-full bg-[#44ae4b]"
           style={{ width: `${progress}%` }}
         ></div>
       </div>

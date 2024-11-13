@@ -121,7 +121,7 @@ const BookCreation = () => {
               </div>
             </div>
             <Link to="/dashboard/book-creation/create-new-book">
-              <button className="w-44 h-12 hover:bg-[#5242b6] bg-[#6a55ea] text-white text-lg font-semibold rounded-lg ease-in-out transition duration-300">
+              <button className="w-44 h-12 hover:bg-[#307b35] bg-[#44ae4b] text-white text-lg font-semibold rounded-lg ease-in-out transition duration-300">
                 Create New
               </button>
             </Link>

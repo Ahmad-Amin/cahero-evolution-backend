@@ -165,7 +165,7 @@ const Community = () => {
               width: "70px",
               height: "100%",
               background:
-                "linear-gradient(to right, #220e37 0%, rgba(34, 14, 55, 0) 100%)",
+                "linear-gradient(to right, #172719 0%, rgba(34, 14, 55, 0) 100%)",
             }}
           />
           <div>{currentUser ? <LoginedNavbar /> : <Navbar />}</div>
@@ -177,7 +177,7 @@ const Community = () => {
               Community
             </p>
             <button
-              className="bg-[#6a55ea] hover:bg-[#5242b6] transition duration-300 w-auto px-5 h-9 text-white font-semibold mr-10 rounded-lg "
+              className="bg-[#44ae4b] hover:bg-[#307b35] transition duration-300 w-auto px-5 h-9 text-white font-semibold mr-10 rounded-lg "
               onClick={handleCreateClick}
             >
               Create
@@ -303,9 +303,9 @@ const Community = () => {
                       <div className="flex flex-row m-5 space-x-3">
                         <div
                           onClick={() => addCommentToPost(post.id)}
-                          className="w-10 h-10 rounded-full border border-[#6a55ea] flex items-center justify-center cursor-pointer"
+                          className="w-10 h-10 rounded-full border border-[#44ae4b] flex items-center justify-center cursor-pointer"
                         >
-                          <SendIcon className="text-[#6a55ea]" />
+                          <SendIcon className="text-[#44ae4b]" />
                         </div>
                       </div>
                     </div>

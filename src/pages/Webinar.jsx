@@ -104,7 +104,7 @@ const Webinar = () => {
             left: 0,
             width: "70px",
             height: "100%", 
-            background: "linear-gradient(to right, #220e37 0%, rgba(34, 14, 55, 0) 100%)",
+            background: "linear-gradient(to right, #172719 0%, rgba(34, 14, 55, 0) 100%)",
           }}
           
         />

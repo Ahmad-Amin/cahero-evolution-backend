@@ -90,20 +90,20 @@ const PastWebinars = ({ limit, searchQuery, datefilter }) => {
                   </p>
 
                   <div className="flex items-center mt-2 text-sm md:text-base">
-                    <CalendarTodayIcon className="text-[#6a55ea] mr-1" />
+                    <CalendarTodayIcon className="text-[#44ae4b] mr-1" />
                     <p className="text-white mr-2">Date:</p>
                     <p className="text-[#b2b2b2]">
                       {new Date(webinar.startDate).toLocaleDateString()}{" "}
                     </p>
                   </div>
                   <div className="flex items-center mt-2 text-sm md:text-base">
-                    <AccessTimeIcon className="text-[#6a55ea] mr-1" />
+                    <AccessTimeIcon className="text-[#44ae4b] mr-1" />
                     <p className="text-white mr-2">Time:</p>
                     <p className="text-[#b2b2b2]">{webinar.startTime}</p>
                   </div>
 
                   <div className="flex items-center mt-2">
-                    <PeopleAltIcon className="text-[#6a55ea] mr-1" />
+                    <PeopleAltIcon className="text-[#44ae4b] mr-1" />
                     <p className="text-white mr-2">Joined Users:</p>
                     <div className="flex ml-2">
                       {webinar.joinedUsers?.length > 0 ? (

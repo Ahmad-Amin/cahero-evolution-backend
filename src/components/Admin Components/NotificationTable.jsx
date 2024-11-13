@@ -91,14 +91,14 @@ const NotificationTable = ({ onViewNotification }) => {
                 </td>
                 <td className="px-6 py-4">
                   <button
-                    className="font-medium text-white bg-[#6a55ea] hover:bg-[#5242b6] mr-2 rounded-lg h-8 w-auto px-3 ease-in-out transition duration-200"
+                    className="font-medium text-white bg-[#44ae4b] hover:bg-[#307b35] mr-2 rounded-lg h-8 w-auto px-3 ease-in-out transition duration-200"
                     onClick={() => onViewNotification(notification)}
                   >
                     View
                   </button>
                   <button
                     onClick={() => resentNotifications(notification.id)}
-                    className="font-medium text-[#6a55ea] hover:bg-[#6a55ea] border border-[#6a55ea] hover:text-white rounded-lg h-8 w-auto px-3 ease-in-out transition duration-200"
+                    className="font-medium text-[#44ae4b] hover:bg-[#44ae4b] border border-[#44ae4b] hover:text-white rounded-lg h-8 w-auto px-3 ease-in-out transition duration-200"
                   >
                     Resend
                   </button>
